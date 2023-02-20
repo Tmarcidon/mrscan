@@ -9,9 +9,9 @@
 一个萌新正在写(抄)的垃圾扫描器。
 
 
-本人是新手，也学了一段时间的rust，参照着我自己平时使用的工具，想试着用rust写一个从子域名到端口探测与服务识别再到协议爆破，web标题获取，web中间件框架指纹，web目录扫描，bypass_cdn_403和综合漏洞利用，服务协议爆破的工具作为rust学习笔记。
+本人是新手，也学了一段时间的rust，参照着我自己平时使用的工具，想试着用rust写一个从子域名到端口探测与服务识别再到协议爆破，web标题获取，web中间件框架指纹识别，综合漏洞检测与利用，服务协议爆破的工具作为rust学习笔记。
 
-用于实现以上功能的安全工具有很多：ksubdomain，oneforall，httpx，nmap，osint_tools，fscan，afrog，Ehole，xray，vulmap，dirsearch，ffuf，f403，fcdn等等，其中很多工具都是开源的并且也提供了很好的学习思路，由于现在rust库官方更新有限，本人能力也有限无法实现自己去写所需要的库，如有暂时实现不了的功能将留下todo列表，暂用其他工具替代并调用。
+用于实现以上功能的安全工具有很多：ksubdomain，oneforall，httpx，nmap，osint_tools，fscan，afrog，Ehole，xray，vulmap等等，其中很多工具都是开源的并且也提供了很好的学习思路，由于现在rust库官方更新有限，本人能力也有限无法实现自己去写所需要的库，如有暂时实现不了的功能将留下todo列表，暂用其他工具替代并调用。
 
 ``` rust
 //                      d*##$.
